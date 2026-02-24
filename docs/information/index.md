@@ -3,7 +3,7 @@ title: Depuis quand LKL Cloud existe ?
 toc: false
 ---
 
-LKLCloud a été fondée en 2025 par Kylian T & Lorenzo S passionnés de gaming et d'hébergement.
+LKLCloud a été fondée en 2025 par Kylian T, Lorenzo S, Maxime C & Loeiz D passionnés de gaming et d'hébergement.
 
 ## Notre histoire
 
