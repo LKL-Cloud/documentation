@@ -1,5 +1,6 @@
 ---
 title: Bienvenue sur la documentation LKLCloud
+slug: /
 ---
 
 Bienvenue sur la documentation officielle de **LKLCloud**.  
