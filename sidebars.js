@@ -90,5 +90,12 @@ module.exports = {
         'gmod/wiremod',
       ],
     },
+    {
+      type: 'category',
+      label: 'Hytale',
+      items: [
+        'hytale/index',
+      ],
+    },
   ],
 };
