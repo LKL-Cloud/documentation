@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import Layout from '@theme/Layout';
+import React from 'react';
+import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
@@ -221,13 +221,12 @@ function ServiceCard({ icon, color, title, description, link }) {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
-  useEffect(() => {
-    document.documentElement.classList.add('landing-page');
-    return () => document.documentElement.classList.remove('landing-page');
-  }, []);
-
   return (
-    <Layout title="Accueil" description={siteConfig.tagline}>
+    <>
+      <Head>
+        <title>Accueil | {siteConfig.title}</title>
+        <meta name="description" content={siteConfig.tagline} />
+      </Head>
       <main className={styles.main}>
         {/* Hero */}
         <section className={styles.hero}>
@@ -289,6 +288,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </Layout>
+    </>
   );
 }

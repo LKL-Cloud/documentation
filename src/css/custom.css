@@ -146,29 +146,6 @@ footer.footer {
   display: none !important;
 }
 
-/* Dark navbar ONLY on the landing page */
-html.landing-page .navbar {
-  background-color: #0c0c14 !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
-  box-shadow: none !important;
-}
-
-html.landing-page .navbar__title {
-  color: #ffffff !important;
-}
-
-html.landing-page .navbar__link {
-  color: #d1d5db !important;
-}
-
-html.landing-page .navbar__link:hover {
-  color: #ffffff !important;
-}
-
-html.landing-page .navbar__toggle {
-  color: #d1d5db !important;
-}
-
 
 /* =========================
    TYPOGRAPHIE
