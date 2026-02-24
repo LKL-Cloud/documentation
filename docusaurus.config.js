@@ -55,7 +55,7 @@ const config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/docs', label: 'Documentation', position: 'left' },
+        { to: '/docs/intro', label: 'Documentation', position: 'left' },
         { href: 'https://lklcloud.fr', label: 'Site Web', position: 'right' },
         { href: 'https://client.lklcloud.fr/', label: 'Espace client', position: 'right' },
         { href: 'https://discord.gg/UaHNnMarQA', label: 'Discord', position: 'right' },
@@ -72,7 +72,7 @@ const config = {
         {
           title: 'Documentation',
           items: [
-            { label: 'Accueil', to: '/docs' },
+            { label: 'Accueil', to: '/docs/intro' },
           ],
         },
         {

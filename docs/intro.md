@@ -1,6 +1,6 @@
 ---
 title: Bienvenue sur la documentation LKLCloud
-slug: /
+sidebar_position: 1
 ---
 
 Bienvenue sur la documentation officielle de **LKLCloud**.  

@@ -23,7 +23,7 @@ Bienvenue dans la section dédiée aux serveurs **Hytale** sur LKLCloud.
 Les fichiers de configuration principaux se trouvent dans le panel :
 
 - **server.properties** — Configuration générale du serveur
-- **Ports** — Vérifiez que les ports sont correctement ouverts (voir [guide des ports](/information/ports))
+- **Ports** — Vérifiez que les ports sont correctement ouverts (voir [guide des ports](/docs/information/ports))
 
 ## Besoin d'aide ?
 
