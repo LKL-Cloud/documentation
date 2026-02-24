@@ -28,8 +28,6 @@ Explorez nos différentes sections de documentation via le menu latéral :
 - FiveM
 - Minecraft
 - Garry's Mod
-- CMS
-- Erreurs fréquentes
 
 ---
 
