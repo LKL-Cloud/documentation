@@ -1,0 +1,278 @@
+/* ===========================
+   LANDING PAGE – LKLCloud
+   Inspired by YorkHost style
+   =========================== */
+
+.main {
+  background-color: #0c0c14;
+  color: #e0e0e0;
+  min-height: 100vh;
+  font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ── Hero ── */
+
+.hero {
+  text-align: center;
+  padding: 6rem 2rem 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 127, 0, 0.12);
+  border: 1px solid rgba(255, 127, 0, 0.25);
+  color: #ff9933;
+  padding: 0.4rem 1.1rem;
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.badgeDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #34d399;
+  display: inline-block;
+  box-shadow: 0 0 6px rgba(52, 211, 153, 0.6);
+}
+
+.heroTitle {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.heroAccent {
+  color: #ff9933;
+}
+
+.heroSubtitle {
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 520px;
+}
+
+/* ── CTA Buttons ── */
+
+.heroCta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.ctaPrimary {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, #ff7f00, #e67300);
+  color: #fff !important;
+  padding: 0.65rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  text-decoration: none !important;
+  transition: transform 0.15s, box-shadow 0.15s;
+  border: none;
+}
+
+.ctaPrimary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(255, 127, 0, 0.35);
+  color: #fff !important;
+}
+
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #d1d5db !important;
+  padding: 0.65rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.88rem;
+  text-decoration: none !important;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.ctaSecondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.18);
+  color: #fff !important;
+}
+
+/* ── Stats Row ── */
+
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  margin-top: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.statCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.statIcon {
+  color: #9ca3af;
+  margin-bottom: 0.15rem;
+}
+
+.statValue {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+/* ── Divider ── */
+
+.divider {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ── Sections ── */
+
+.section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+.sectionTag {
+  display: block;
+  color: #ff9933;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 1.25rem;
+  letter-spacing: -0.01em;
+}
+
+/* ── Service Cards Grid ── */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+}
+
+.serviceCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 1rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.serviceCard:hover {
+  background: rgba(255, 255, 255, 0.045);
+  border-color: rgba(255, 127, 0, 0.25);
+}
+
+.serviceIcon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.serviceContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.serviceTitle {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #f3f4f6;
+  margin: 0;
+}
+
+.serviceDescription {
+  font-size: 0.76rem;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroCta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statsRow {
+    gap: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 4rem 1.5rem 2rem;
+  }
+}

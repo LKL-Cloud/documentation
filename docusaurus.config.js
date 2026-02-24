@@ -27,7 +27,7 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/',
+          routeBasePath: '/docs',
           editUrl: undefined,
           showLastUpdateTime: true,
         },
@@ -55,7 +55,7 @@ const config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/', label: 'Documentation', position: 'left' },
+        { to: '/docs', label: 'Documentation', position: 'left' },
         { href: 'https://lklcloud.fr', label: 'Site Web', position: 'right' },
         { href: 'https://client.lklcloud.fr/', label: 'Espace client', position: 'right' },
         { href: 'https://discord.gg/UaHNnMarQA', label: 'Discord', position: 'right' },
@@ -72,7 +72,7 @@ const config = {
         {
           title: 'Documentation',
           items: [
-            { label: 'Accueil', to: '/' },
+            { label: 'Accueil', to: '/docs' },
           ],
         },
         {

@@ -3,10 +3,96 @@
  */
 
 /* =========================
+   FONT – Satoshi
+   ========================= */
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://lklcloud.fr/fonts/Satoshi-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* =========================
    LIGHT MODE
    ========================= */
 
 :root {
+  --ifm-font-family-base: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --ifm-color-primary: #ff7f00;
   --ifm-color-primary-dark: #e67300;
   --ifm-color-primary-darker: #cc6600;
@@ -55,9 +141,34 @@
    FOOTER
    ========================= */
 
+/* Hide footer on landing, show on docs */
 footer.footer {
   display: none !important;
 }
+
+/* Dark navbar ONLY on the landing page */
+html.landing-page .navbar {
+  background-color: #0c0c14 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-shadow: none !important;
+}
+
+html.landing-page .navbar__title {
+  color: #ffffff !important;
+}
+
+html.landing-page .navbar__link {
+  color: #d1d5db !important;
+}
+
+html.landing-page .navbar__link:hover {
+  color: #ffffff !important;
+}
+
+html.landing-page .navbar__toggle {
+  color: #d1d5db !important;
+}
+
 
 /* =========================
    TYPOGRAPHIE
