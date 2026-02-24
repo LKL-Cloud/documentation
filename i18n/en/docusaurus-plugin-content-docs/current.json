@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Information sur LKLCloud": {
+    "message": "LKLCloud Information",
+    "description": "The label for category 'Information sur LKLCloud' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Panel Game": {
+    "message": "Game Panel",
+    "description": "The label for category 'Panel Game' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Tuto Web": {
+    "message": "Web Tutorials",
+    "description": "The label for category 'Tuto Web' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Tuto VPS": {
+    "message": "VPS Tutorials",
+    "description": "The label for category 'Tuto VPS' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.VPS Windows": {
+    "message": "Windows VPS",
+    "description": "The label for category 'VPS Windows' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.FiveM": {
+    "message": "FiveM",
+    "description": "The label for category 'FiveM' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Minecraft": {
+    "message": "Minecraft",
+    "description": "The label for category 'Minecraft' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Garry's Mod": {
+    "message": "Garry's Mod",
+    "description": "The label for category 'Garry's Mod' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.CMS": {
+    "message": "CMS",
+    "description": "The label for category 'CMS' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Erreurs fréquentes": {
+    "message": "Common Errors",
+    "description": "The label for category 'Erreurs fréquentes' in sidebar 'docs'"
+  },
+  "sidebar.docs.doc.Bienvenue sur la documentation": {
+    "message": "Welcome to the documentation",
+    "description": "The label for the doc item 'Bienvenue sur la documentation' in sidebar 'docs', linking to the doc intro"
+  }
+}

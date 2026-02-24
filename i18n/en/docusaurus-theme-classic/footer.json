@@ -1,0 +1,38 @@
+{
+  "link.title.Documentation": {
+    "message": "Documentation",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Support": {
+    "message": "Support",
+    "description": "The title of the footer links column with title=Support in the footer"
+  },
+  "link.title.LKLCloud": {
+    "message": "LKLCloud",
+    "description": "The title of the footer links column with title=LKLCloud in the footer"
+  },
+  "link.item.label.Accueil": {
+    "message": "Home",
+    "description": "The label of footer link with label=Accueil linking to /"
+  },
+  "link.item.label.Erreurs fréquentes": {
+    "message": "Common Errors",
+    "description": "The label of footer link with label=Erreurs fréquentes linking to /erreurs"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/UaHNnMarQA"
+  },
+  "link.item.label.Espace client": {
+    "message": "Client Portal",
+    "description": "The label of footer link with label=Espace client linking to https://client.lklcloud.fr"
+  },
+  "link.item.label.Site Web": {
+    "message": "Website",
+    "description": "The label of footer link with label=Site Web linking to https://lklcloud.fr"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 LKLCloud.",
+    "description": "The footer copyright"
+  }
+}

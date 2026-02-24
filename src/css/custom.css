@@ -1,0 +1,158 @@
+/**
+ * Global CSS – LKL Cloud Orange Theme
+ */
+
+/* =========================
+   LIGHT MODE
+   ========================= */
+
+:root {
+  --ifm-color-primary: #ff7f00;
+  --ifm-color-primary-dark: #e67300;
+  --ifm-color-primary-darker: #cc6600;
+  --ifm-color-primary-darkest: #b35900;
+  --ifm-color-primary-light: #ff9933;
+  --ifm-color-primary-lighter: #ffb366;
+  --ifm-color-primary-lightest: #ffcc99;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 127, 0, 0.1);
+  
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f5f6f7;
+  --ifm-font-color-base: #24292e;
+  --ifm-heading-color: #1a1a1a;
+  --ifm-menu-color-background-active: rgba(255, 127, 0, 0.08);
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* =========================
+   DARK MODE
+   ========================= */
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ff9933;
+  --ifm-color-primary-dark: #ff7f00;
+  --ifm-color-primary-darker: #e67300;
+  --ifm-color-primary-darkest: #cc6600;
+  --ifm-color-primary-light: #ffb366;
+  --ifm-color-primary-lighter: #ffcc99;
+  --ifm-color-primary-lightest: #ffe6cc;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 153, 51, 0.15);
+  
+  --ifm-background-color: #1a1a1a;
+  --ifm-background-surface-color: #242424;
+  --ifm-font-color-base: #e8e8e8;
+  --ifm-heading-color: #ffffff;
+  --ifm-menu-color-background-active: rgba(255, 153, 51, 0.15);
+  --ifm-navbar-background-color: #1f1f1f;
+  --ifm-navbar-shadow: 0 1px 0 0 rgba(255, 153, 51, 0.1);
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer.footer {
+  display: none !important;
+}
+
+/* =========================
+   TYPOGRAPHIE
+   ========================= */
+
+.markdown h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.markdown h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.markdown p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* =========================
+   THEME SPECIFIC ELEMENTS
+   ========================= */
+
+html[data-theme='dark'] .main-wrapper {
+  background-color: #1a1a1a;
+}
+
+html[data-theme='dark'] .theme-doc-sidebar-container {
+  background-color: #1f1f1f;
+  border-right: 1px solid #2d2d2d;
+}
+
+html[data-theme='dark'] .navbar {
+  background-color: #1f1f1f;
+  border-bottom: 1px solid #2d2d2d;
+}
+
+html[data-theme='dark'] .card,
+html[data-theme='dark'] .theme-doc-markdown pre {
+  background-color: #242424;
+  border: 1px solid #2d2d2d;
+}
+
+html[data-theme='light'] .navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+html[data-theme='light'] .theme-doc-sidebar-container {
+  background-color: #f9fafb;
+  border-right: 1px solid #e5e7eb;
+}
+
+/* =========================
+   INTERFACE PLUS COMPACTE
+   ========================= */
+
+html {
+  font-size: 15px;
+}
+
+:root {
+  --ifm-font-size-base: 15px;
+  --ifm-line-height-base: 1.6;
+  --ifm-container-width: 1140px;
+}
+
+.theme-doc-sidebar-container {
+  font-size: 0.9rem;
+}
+
+.menu__link {
+  font-size: 0.9rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.breadcrumbs__item {
+  font-size: 0.85rem;
+}
+
+.markdown table {
+  font-size: 0.9rem;
+}
+
+.theme-admonition {
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+}
