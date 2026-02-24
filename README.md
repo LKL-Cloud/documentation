@@ -1,42 +1,60 @@
-# Website
+# LKLCloud Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Documentation officielle de [LKLCloud](https://lklcloud.fr) — votre nouvel hébergeur français haute performance.
+
+## Stack
+
+- [Docusaurus 3](https://docusaurus.io/) — Générateur de sites statiques
+- Déploiement automatique via Plesk Git
+- Notifications Discord via GitHub Actions
 
 ## Installation
 
 ```bash
-yarn
+npm install --legacy-peer-deps
 ```
 
-## Local Development
+## Développement local
 
 ```bash
-yarn start
+npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Le site sera accessible sur `http://localhost:3000/`.
 
 ## Build
 
 ```bash
-yarn build
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Génère le site statique dans le dossier `build/`.
 
-## Deployment
+## Structure
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
+```
+docs/               # Pages de documentation (Markdown)
+├── information/     # Infos sur LKLCloud
+├── panel-game/      # Panel Game
+├── tuto-web/        # Tutoriels Web
+├── tuto-vps/        # Tutoriels VPS Linux
+├── vps-windows/     # VPS Windows
+├── fivem/           # FiveM
+├── minecraft/       # Minecraft
+├── gmod/            # Garry's Mod
+└── intro.md         # Page d'accueil
+src/css/             # Styles custom
+static/              # Assets statiques (images, favicon)
+i18n/                # Traductions (FR/EN)
 ```
 
-Not using SSH:
+## Liens
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+- [Site Web](https://lklcloud.fr)
+- [Espace client](https://client.lklcloud.fr)
+- [Discord](https://discord.gg/UaHNnMarQA)
+- [Documentation](https://docs.lklcloud.fr)
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-"# site-docs" 
+## Licence
+
+Copyright © 2026 LKLCloud. Tous droits réservés.
