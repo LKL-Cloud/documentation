@@ -275,8 +275,10 @@ function StatCard({ icon, value, label }) {
   return (
     <div className={styles.statCard}>
       <span className={styles.statIcon}>{icon}</span>
-      <span className={styles.statValue}>{value}</span>
-      <span className={styles.statLabel}>{label}</span>
+      <div className={styles.statTexts}>
+        <span className={styles.statValue}>{value}</span>
+        <span className={styles.statLabel}>{label}</span>
+      </div>
     </div>
   );
 }
@@ -310,10 +312,6 @@ export default function Home() {
         {/* Hero */}
         <section className={styles.hero}>
           <div className={styles.heroInner}>
-            <span className={styles.badge}>
-              <span className={styles.badgeDot} />
-              Infrastructure en ligne
-            </span>
             <h1 className={styles.heroTitle}>
               Documentation <span className={styles.heroAccent}>LKLCloud</span>
             </h1>
