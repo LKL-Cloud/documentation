@@ -1,5 +1,6 @@
 ---
 title: Héberger un bot Discord sur LKL Cloud
+sidebar_position: 8
 ---
 
 Guide pour héberger votre bot Discord sur un VPS LKL Cloud avec Node.js, Python ou autres langages.

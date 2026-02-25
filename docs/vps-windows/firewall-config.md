@@ -1,5 +1,6 @@
 ---
 title: Configurer le Pare-feu Windows
+sidebar_position: 4
 toc: false
 ---
 

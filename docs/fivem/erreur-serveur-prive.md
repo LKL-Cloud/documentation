@@ -1,5 +1,6 @@
 ---
 title: Erreur "Serveur Privé"
+sidebar_position: 7
 ---
 
 Solutions pour résoudre l'erreur "Ce serveur est privé" lors de la connexion à votre serveur FiveM.

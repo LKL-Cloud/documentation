@@ -1,5 +1,6 @@
 ---
 title: Choisir son mode GMOD
+sidebar_position: 2
 ---
 
 Guide pour choisir et installer le meilleur gamemode pour votre serveur Garry's Mod.

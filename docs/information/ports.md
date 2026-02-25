@@ -1,6 +1,7 @@
 ---
 id: ports
 title: Quels ports sont ouverts ?
+sidebar_position: 4
 ---
 
 ## Serveurs de jeux

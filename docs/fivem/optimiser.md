@@ -1,5 +1,6 @@
 ---
 title: Optimiser son serveur FiveM
+sidebar_position: 6
 ---
 
 Guide complet pour optimiser les performances de votre serveur FiveM et offrir la meilleure expérience à vos joueurs.

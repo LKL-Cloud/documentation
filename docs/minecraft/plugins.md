@@ -1,5 +1,6 @@
 ---
 title: Installer des plugins
+sidebar_position: 3
 ---
 
 Guide complet pour installer et gérer les plugins sur votre serveur Minecraft.

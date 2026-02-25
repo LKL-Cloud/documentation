@@ -1,5 +1,6 @@
 ---
-title: Mettre à jour les artefacts FiveM
+title: Mettre à jour les Artifacts FiveM
+sidebar_position: 8
 ---
 
 Guide pour mettre à jour les artifacts FiveM de votre serveur vers la dernière version.

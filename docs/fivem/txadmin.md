@@ -1,5 +1,6 @@
 ---
 title: Activer et configurer txAdmin
+sidebar_position: 2
 ---
 
 Guide complet pour installer et configurer txAdmin, le panel d'administration officiel pour serveurs FiveM.

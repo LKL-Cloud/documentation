@@ -1,5 +1,6 @@
 ---
 title: Serveur Minecraft
+sidebar_position: 1
 toc: false
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Configurer un Reverse Proxy
+sidebar_position: 7
 ---
 
 Guide pour configurer Nginx comme reverse proxy et gérer plusieurs applications sur un même serveur.

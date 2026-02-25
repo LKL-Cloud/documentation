@@ -1,5 +1,6 @@
 ---
 title: Monitoring serveur
+sidebar_position: 9
 ---
 
 Guide complet pour surveiller les performances et l'état de votre serveur avec différents outils de monitoring.

@@ -1,5 +1,6 @@
 ---
 title: Configurer le redémarrage automatique
+sidebar_position: 2
 toc: false
 ---
 

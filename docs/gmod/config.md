@@ -1,5 +1,6 @@
 ---
 title: Configurer son serveur GMOD
+sidebar_position: 3
 ---
 
 Configuration complète de votre serveur Garry's Mod pour des performances optimales.

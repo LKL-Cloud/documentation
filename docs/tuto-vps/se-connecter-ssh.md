@@ -1,5 +1,6 @@
 ---
 title: Se connecter en SSH
+sidebar_position: 2
 ---
 
 Guide complet pour se connecter à votre VPS Linux via SSH depuis Windows, macOS ou Linux.

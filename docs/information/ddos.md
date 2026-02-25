@@ -1,6 +1,7 @@
 ---
 id: ddos
 title: Protection Anti-DDoS
+sidebar_position: 5
 ---
 
 LKL Cloud utilise plusieurs solutions de protection Anti-DDoS pour garantir la disponibilité de vos services.

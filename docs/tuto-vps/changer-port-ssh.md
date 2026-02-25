@@ -1,5 +1,6 @@
 ---
 title: Changer le port SSH
+sidebar_position: 3
 ---
 
 Guide pour modifier le port SSH par défaut et améliorer la sécurité de votre VPS.

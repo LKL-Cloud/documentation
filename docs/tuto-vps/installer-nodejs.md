@@ -1,5 +1,6 @@
 ---
 title: Installer Node.js & NVM
+sidebar_position: 4
 ---
 
 Guide complet pour installer Node.js sur votre VPS Linux avec différentes méthodes.

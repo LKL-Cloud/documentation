@@ -1,5 +1,6 @@
 ---
 title: Choisir la version du serveur
+sidebar_position: 2
 ---
 
 Guide pour choisir et configurer la meilleure version de Minecraft pour votre serveur.

@@ -1,5 +1,6 @@
 ---
 title: Activer OneSync et OneSync Infinity
+sidebar_position: 5
 ---
 
 Configuration de OneSync et OneSync Infinity pour augmenter le nombre de joueurs et améliorer les performances de votre serveur FiveM.

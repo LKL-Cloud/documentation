@@ -1,5 +1,6 @@
 ---
 title: Installer des logiciels sur VPS Windows
+sidebar_position: 3
 toc: false
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Installer Docker & Docker Compose
+sidebar_position: 6
 ---
 
 Guide complet pour installer et utiliser Docker sur votre VPS Linux.

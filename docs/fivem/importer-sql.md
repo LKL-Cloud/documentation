@@ -1,5 +1,6 @@
 ---
 title: Importer et compresser un fichier SQL
+sidebar_position: 4
 ---
 
 Guide pour gérer efficacement vos bases de données FiveM, incluant l'import et la compression de fichiers SQL volumineux.

@@ -1,5 +1,6 @@
 ---
 title: Installer WireMod
+sidebar_position: 4
 ---
 
 Guide d'installation et d'utilisation de WireMod, l'addon indispensable pour les constructions avancées sur GMod.

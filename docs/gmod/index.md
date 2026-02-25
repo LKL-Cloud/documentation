@@ -1,5 +1,6 @@
 ---
 title: Serveur Garry's Mod
+sidebar_position: 1
 toc: false
 ---
 

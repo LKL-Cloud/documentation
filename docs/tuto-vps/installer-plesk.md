@@ -1,5 +1,6 @@
 ---
 title: Installer Plesk
+sidebar_position: 5
 ---
 
 Guide d'installation et de configuration de Plesk sur votre VPS pour une gestion web facilitée.

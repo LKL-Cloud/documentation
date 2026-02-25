@@ -1,5 +1,6 @@
 ---
-title: Lier la base de données MySQL à FiveM
+title: Intégrer MySQL avec FiveM
+sidebar_position: 3
 ---
 
 Configuration complète de MySQL pour votre serveur FiveM et intégration avec oxmysql.

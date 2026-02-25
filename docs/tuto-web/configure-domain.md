@@ -1,5 +1,6 @@
 ---
 title: Configurer un nom de domaine
+sidebar_position: 1
 toc: false
 ---
 

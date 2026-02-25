@@ -1,5 +1,6 @@
 ---
 title: Tous les ports sont-ils ouverts ?
+sidebar_position: 6
 ---
 
 Information sur les ports ouverts et la configuration des pare-feu sur les services LKL Cloud.

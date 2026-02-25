@@ -1,5 +1,6 @@
 ---
 title: Se connecter à un VPS Windows
+sidebar_position: 2
 toc: false
 ---
 

@@ -33,17 +33,16 @@ module.exports = {
     {
       type: 'category',
       label: 'Tuto VPS',
-      items: [ 
+      items: [
         'tuto-vps/index',
         'tuto-vps/se-connecter-ssh',
         'tuto-vps/changer-port-ssh',
-        'tuto-vps/ssh',
         'tuto-vps/installer-nodejs',
-        'tuto-vps/nodejs',
         'tuto-vps/installer-plesk',
         'tuto-vps/installer-docker',
         'tuto-vps/configurer-reverse-proxy',
         'tuto-vps/monitoring-serveur',
+        'tuto-vps/heberger-bot-discord',
       ],
     },
     {
@@ -51,8 +50,8 @@ module.exports = {
       label: 'VPS Windows',
       items: [
         'vps-windows/index',
-        'vps-windows/connect-rdp', 
-        'vps-windows/install-software', 
+        'vps-windows/connect-rdp',
+        'vps-windows/install-software',
         'vps-windows/firewall-config',
       ],
     },
@@ -63,12 +62,11 @@ module.exports = {
         'fivem/index',
         'fivem/txadmin',
         'fivem/mysql',
-        'fivem/onesync',
+        'fivem/importer-sql',
         'fivem/onesync-infinity',
         'fivem/optimiser',
         'fivem/erreur-serveur-prive',
         'fivem/mettre-a-jour-artifacts',
-        'fivem/discount',
       ],
     },
     {
