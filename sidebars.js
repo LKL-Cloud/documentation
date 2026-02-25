@@ -8,8 +8,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Information sur LKLCloud',
+      link: {
+        type: 'doc',
+        id: 'information/index',
+      },
       items: [
-        'information/index',
         'information/faq',
         'information/infra',
         'information/ports',
@@ -20,8 +23,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Panel Game',
+      link: {
+        type: 'doc',
+        id: 'panel-game/index',
+      },
       items: [
-        'panel-game/index',
         'panel-game/configurations',
       ],
     },
@@ -33,8 +39,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Tuto VPS',
+      link: {
+        type: 'doc',
+        id: 'tuto-vps/index',
+      },
       items: [
-        'tuto-vps/index',
         'tuto-vps/se-connecter-ssh',
         'tuto-vps/changer-port-ssh',
         'tuto-vps/installer-nodejs',
@@ -48,8 +57,11 @@ module.exports = {
     {
       type: 'category',
       label: 'VPS Windows',
+      link: {
+        type: 'doc',
+        id: 'vps-windows/index',
+      },
       items: [
-        'vps-windows/index',
         'vps-windows/connect-rdp',
         'vps-windows/install-software',
         'vps-windows/firewall-config',
@@ -58,8 +70,11 @@ module.exports = {
     {
       type: 'category',
       label: 'FiveM',
+      link: {
+        type: 'doc',
+        id: 'fivem/index',
+      },
       items: [
-        'fivem/index',
         'fivem/txadmin',
         'fivem/mysql',
         'fivem/importer-sql',
@@ -72,8 +87,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Minecraft',
+      link: {
+        type: 'doc',
+        id: 'minecraft/index',
+      },
       items: [
-        'minecraft/index',
         'minecraft/version',
         'minecraft/plugins',
       ],
@@ -81,8 +99,11 @@ module.exports = {
     {
       type: 'category',
       label: "Garry's Mod",
+      link: {
+        type: 'doc',
+        id: 'gmod/index',
+      },
       items: [
-        'gmod/index',
         'gmod/modes',
         'gmod/config',
         'gmod/wiremod',
@@ -91,9 +112,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Hytale',
-      items: [
-        'hytale/index',
-      ],
+      link: {
+        type: 'doc',
+        id: 'hytale/index',
+      },
+      items: [],
     },
   ],
 };
