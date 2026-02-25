@@ -1,10 +1,10 @@
 ---
-title: Tutoriels VPS Linux
+title: Aide Cloud
 sidebar_position: 1
 toc: false
 ---
 
-Guide complet pour configurer et administrer votre VPS Linux sur LKL Cloud.
+Guides et tutoriels pour configurer et administrer vos services sur LKL Cloud.
 
 ## Guides disponibles
 

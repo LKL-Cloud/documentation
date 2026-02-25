@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Tuto VPS',
+      label: 'Aide Cloud',
       link: {
         type: 'doc',
         id: 'tuto-vps/index',
