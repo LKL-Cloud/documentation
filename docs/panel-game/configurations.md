@@ -15,7 +15,7 @@ Ce guide vous montre comment configurer le redémarrage automatique de votre ser
 ## Via les Schedules
 
 1. **Connectez-vous à votre Panel Game :**
-   - [game01.lklcloud.fr](https://game.lklcloud.fr/) pour les serveurs standards
+   - [games.lklcloud.fr](https://game.lklcloud.fr/) pour les serveurs standards
 
 2. Sélectionnez votre serveur
 

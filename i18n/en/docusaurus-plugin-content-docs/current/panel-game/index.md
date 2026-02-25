@@ -20,7 +20,7 @@ The game panel allows you to:
 ## Getting Started
 
 Access your game panel at:
-- [game01.lklcloud.fr](https://game.lklcloud.fr/)
+- [games.lklcloud.fr](https://game.lklcloud.fr/)
 
 Use the credentials provided in your welcome email.
 

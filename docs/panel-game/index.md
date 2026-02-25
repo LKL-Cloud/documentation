@@ -15,7 +15,7 @@ Ce guide vous explique comment ajouter des sous-utilisateurs à votre panel de j
 ## Étapes
 
 1. **Connectez-vous à votre Panel Game :**
-   - [game01.lklcloud.fr](https://game.lklcloud.fr/) pour les serveurs standards
+   - [games.lklcloud.fr](https://game.lklcloud.fr/) pour les serveurs standards
 
 2. Sélectionnez votre serveur
 
